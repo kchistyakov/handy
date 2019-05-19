@@ -1,5 +1,4 @@
-$(document).ready(function() {
-
+jQuery(document).ready(function($) {
 	$("#happyforms-form-56").submit(function() {
 		$.ajax({
 			type: "POST",
@@ -10,5 +9,4 @@ $(document).ready(function() {
 		});
 		return false;
 	});
-
 });
